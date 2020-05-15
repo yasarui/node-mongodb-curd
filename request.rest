@@ -1,0 +1,25 @@
+###
+GET http://localhost:3000/api/courses
+
+###
+GET http://localhost:3000/api/courses/5ebd6344d96c4d0eb00a9f3d
+
+###
+POST http://localhost:3000/api/courses
+Content-Type: application/json
+
+{
+  "id":5,
+  "name":"Java"
+}
+
+###
+PUT http://localhost:3000/api/courses/5ebd6344d96c4d0eb00a9f3d
+Content-Type: application/json
+
+{
+   "name":"ReactJS"
+}
+
+###
+DELETE http://localhost:3000/api/courses/5ebd5158cd2c360ec4865e28
